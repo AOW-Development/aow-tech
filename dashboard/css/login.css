@@ -1,0 +1,85 @@
+body {
+    height: 100%;
+    background-size: cover;
+    background-color: #1b5b4a;
+       width: 100%;
+       top: 0;
+       left: 0;
+       font-family: "Avenir Next Regular",sans-serif;
+       overflow-x: hidden;
+}
+#title{
+     position: absolute;
+     top: 10%;
+     color: white;
+     font-size: 2.0em;
+     width: 100%;
+     text-align: center;
+}
+#userno{
+     position: absolute;
+     top: 30%;
+     left: 7%;
+     right: 9%;
+     width: 85%;
+    font-size: 23px;
+    padding: 2%;
+    height: 5%;
+ }
+ #code{
+   position: absolute;
+     top: 42%;
+     left: 7%;
+     right: 9%;
+     width: 85%;
+    font-size: 23px;
+    padding: 2%;
+    height: 5%;
+ }
+ #loginbtn{
+    position: absolute;
+     top: 56%;
+     left: 7%;
+     width: 85%;
+     text-align: center;
+    font-size: 23px;
+    padding: 1%;
+    height: 7.9%;
+    background-color: #1b5b4a;
+    color: white; 
+    font-weight: bold;
+ }
+ #resetpswrd{
+    position: absolute;
+     top: 68%;
+     left: 7%;
+     width: 85%;
+     text-align: center;
+    font-size: 1.5em;
+    color: white;
+ }
+ #signupbtn{
+     position: absolute;
+     top: 84%;
+     left: 7%;
+     width: 85%;
+     text-align: center;
+    font-size: 23px;
+    padding: 1.5%;
+    height: 7;
+    background-color: #1b5b4a;
+    color: white; 
+}
+@media screen and (max-width: 870px) {
+  #userno{
+    font-size: 1.3em;
+    padding: 3%;
+    height: 7%;
+ }
+ #code{
+    padding: 3%;
+    height: 7%;
+ }
+  }
+
+

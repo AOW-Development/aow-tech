@@ -1,0 +1,35 @@
+#loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+}
+#loader {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+#loader{
+    background-color: #1b5b4a;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+#loader:before {
+    animation: pulse 2s infinite;
+    width: 77px;
+    height: 92px;
+    position: fixed;
+    top: 46%;
+    left: 50%;
+    margin-top: -47px;
+    margin-left: -40px;
+    display: block;
+    content: '';
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+    background-image: url(../images/gilogo.jpg);
+    z-index: 20;
+}
