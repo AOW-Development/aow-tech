@@ -1,0 +1,4 @@
+runtime: php74  # or whichever PHP version you're using
+handlers:
+- url: /.*
+  script: auto
