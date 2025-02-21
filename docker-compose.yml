@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  xampp:
+    build: .
+    container_name: xampp_server
+    ports:
+      - "80:80"
+      - "3306:3306"
+    volumes:
+      - ./php-project:/opt/lampp/htdocs/
+    restart: always
